@@ -1,5 +1,6 @@
 USE codeup_test_db;
 
+-- Write SELECT statements to output each of the following with a caption:
 --     All albums in your table.
 SELECT * FROM albums;
 --     Make all the albums 10 times more popular (sales * 10)
