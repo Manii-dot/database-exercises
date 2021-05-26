@@ -20,13 +20,13 @@ ORDER BY first_name, last_name;
 SELECT first_name, last_name
 FROM employees
 WHERE first_name IN ('Irena', 'Vidya', 'Maya')
-ORDER BY last_name, first_name;
+ORDER BY last_name DESC, first_name DESC;
 
 -- 5 Update your queries for employees with 'E' in their last name to sort the results by their employee number. Your results should not change!
 SELECT emp_no, last_name, first_name
 FROM employees
 WHERE last_name LIKE 'E%'
-ORDER BY emp_no
+ORDER BY emp_no DESC
 LIMIT 7330;
 
 -- 6 Now reverse the sort order for both queries and compare results.
